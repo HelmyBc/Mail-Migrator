@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mail Migrator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<div class="header">
+    <img id="logo" src="/final/images/logo.png" alt="logo">
+    <div id="title">Email Migrator</div>
+</div>
+<body>
+    <div class="container">
+        <div class="box" id="box1">
+            <div class="title">Source Account</div>
+            <div class="source-info "><br>
+                <div class="input-box">
+                  <span class="details">Server type</span><br>
+                  <input type="text" placeholder="gmail" >
+                </div>
+                <div class="input-box">
+                    <span class="details">Server URL</span><br>
+                    <input type="text" placeholder="mysourceserver.com" >
+                  </div>
+                  <div class="input-box">
+                    <span class="details">Login</span><br>
+                    <input type="email" placeholder="source@email.com" >
+                  </div>
+                  <div class="input-box">
+                    <span class="details">Password</span><br>
+                    <input type="password" placeholder="password" >
+                  </div>
+            </div>
+        </div>
+        <div class="box" id="box2">
+            <div class="title">Destination Account</div>
+            <div class="source-info "><br>
+                <div class="input-box">
+                  <span class="details">Server type</span><br>
+                  <input type="text" placeholder="Hosted by Mind Hosting" >
+                </div>
+                <div class="input-box">
+                    <span class="details">Server URL</span><br>
+                    <input type="text" placeholder="AutoDetect" >
+                  </div>
+                  <div class="input-box">
+                    <span class="details">Login</span><br>
+                    <input type="email" placeholder="destination@email.com" >
+                  </div>
+                  <div class="input-box">
+                    <span class="details">Password</span><br>
+                    <input type="password" placeholder="password" >
+                  </div>
+            </div>
+        </div>
+    </div>
+    <div class="button">Detect settings</div>
+</body>
+</html>
