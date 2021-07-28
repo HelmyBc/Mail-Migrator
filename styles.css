@@ -88,6 +88,20 @@ body {
 .user-details .input-box input:valid {
   border-color: #9b59b6;
 }
+.input-box select {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 1rem;
+  border-radius: 10px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+.user-details .input-box select:focus,
+.user-details .input-box select:valid {
+  border-color: #9b59b6;}
 .button {
   background: #1f1f1f;
   text-decoration: none;
