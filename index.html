@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mail Migrator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+   
+</head>
+<div class="header">
+    <img id="logo" src="/images/logo.png" alt="logo">
+    <div id="title">Email Migrator</div></div>
+<body>
+  <div class="big_container">
+    <div class="container">
+        <div class="box" id="box1">
+            <div class="title">Source Account</div>
+            <div class="source-info "><br>
+                <div class="input-box">
+                  <span class="details">Server type</span><br>
+                  <select id="server-type">
+                    <option value="Gmail">Gmail</option>
+                    <option value="Exchange">Exchange</option>
+                    <option value="office356">office356</option>
+                    <option value="Amazon WorkMail">Amazon WorkMail</option>
+                    <option value="Imap">Imap</option>
+                    <option value="Pop">Pop</option>
+                    <option value="Yahoo">Yahoo</option>
+                    <option value="E-mail Pro">E-mail Pro</option>
+                    <option value="Hosted by Mind Hosting">Hosted by Mind Hosting(AutoDetect)</option>
+                  </select>
+                </div>
+                <div class="input-box">
+                    <span class="details">Server URL</span><br>
+                    <input type="text" placeholder="mysourceserver.com" >
+                  </div>
+                  <div class="input-box">
+                    <span class="details">Login</span><br>
+                    <input type="email" placeholder="source@email.com" >
+                  </div>
+                  <div class="input-box">
+                    <span class="details">Password</span><br>
+                    <input type="password" placeholder="password" >
+                  </div>
+            </div>
+        </div>
+        <div class="box" id="box2">
+            <div class="title">Destination Account</div>
+            <div class="source-info "><br>
+                <div class="input-box">
+                  <span class="details">Server type</span><br>
+                  <select id="server-type">
+                    <option value="Hosted by Mind Hosting">Hosted by Mind Hosting(AutoDetect)</option>
+                    <option value="Gmail">Gmail</option>
+                    <option value="Exchange">Exchange</option>
+                    <option value="office356">office356</option>
+                    <option value="Amazon WorkMail">Amazon WorkMail</option>
+                    <option value="Imap">Imap</option>
+                    <option value="Pop">Pop</option>
+                    <option value="Yahoo">Yahoo</option>
+                    <option value="E-mail Pro">E-mail Pro</option>
+                   
+                  </select>
+                </div>
+                <div class="input-box">
+                    <span class="details">Server URL</span><br>
+                    <input type="text" placeholder="AutoDetect" >
+                  </div>
+                  <div class="input-box">
+                    <span class="details">Login</span><br>
+                    <input type="email" placeholder="destination@email.com" >
+                  </div>
+                  <div class="input-box">
+                    <span class="details">Password</span><br>
+                    <input type="password" placeholder="password" >
+                  </div>
+            </div>
+        </div>
+      </div>
+    <div class="button">Detect settings</div></div>
+   
+</body>
+<div class="footer__container">
+      
+        
+  <section class="social__media">
+    <div class="social__media--wrap">
+      <div class="footer__logo">
+        <a href="/" id="footer__logo">Mind Hosting</a>
+      </div>
+      <p class="website__rights">©2021 All rights reserved</p>
+      <a class="social__icons">
+        <a
+          class="social__icon--link"
+          href="https://www.facebook.com/www.mind.hosting/"
+          target="_blank"
+          aria-label="Facebook"
+        >
+          <i class="fab fa-facebook"></i>
+       
+        </a>
+        <a
+          class="social__icon--link"
+          href="https://twitter.com/MindHosting"
+          target="_blank"
+          aria-label="Twitter"
+        >
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a
+          class="social__icon--link"
+          href="https://www.linkedin.com/company/mind-hosting/"
+          target="_blank"
+          aria-label="LinkedIn"
+        >
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a class="social__icon--link"
+          href="https://mind.hosting/blog/"
+          target="_blank"
+          aria-label="Blogger">
+          <i class="fab fa-blogger"></i>
+        </a>
+        
+      </div>
+    </div>
+  </section>
+</div>
+
+</html>
