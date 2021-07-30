@@ -1,0 +1,25 @@
+{"destination_server_type":[
+    {"id":"1",
+    "name":"Hosted by Mind Engineering"},
+   
+    {"id":"2",
+    "name":"Gmail"},
+    
+    {"id":"3",
+    "name":"Exchange"},
+
+    {"id":"4",
+    "name":"office365"},
+
+    {"id":"5",
+    "name":"pop"},
+
+    {"id":"6",
+    "name":"Imap"},
+
+    {"id":"7",
+    "name":"Yahoo"},
+
+    {"id":"8",
+    "name":"Pop"}
+]}

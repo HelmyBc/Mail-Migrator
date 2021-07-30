@@ -28,8 +28,12 @@
             <div class="source-info "><br>
                 <div class="input-box">
                   <span class="details">Server type</span><br>
-                  <select id="server-type">
-                    <option value="Gmail">Gmail</option>
+                  <select id="source_server_type"></select>
+                  <script type="text/javascript" src="jquery-2.1.4.min.js"></script>
+                  <script type="text/javascript" src="app.js"></script>
+                  
+                    <!--<?php include('SourceServerType.php') ?>-->
+                    <!--<option value="Gmail">Gmail</option>
                     <option value="Exchange">Exchange</option>
                     <option value="office356">office356</option>
                     <option value="Amazon WorkMail">Amazon WorkMail</option>
@@ -37,8 +41,10 @@
                     <option value="Pop">Pop</option>
                     <option value="Yahoo">Yahoo</option>
                     <option value="E-mail Pro">E-mail Pro</option>
-                    <option value="Hosted by Mind Hosting">Hosted by Mind Hosting(AutoDetect)</option>
-                  </select>
+                    <option value="Hosted by Mind Hosting">Hosted by Mind Hosting(AutoDetect)</option>-->
+
+                  <script type="text/javascript" src ="jquery-3.6.0.js"></script>
+                  <script type="text/javascript" src ="app.js"></script>
                 </div>
                 <div class="input-box">
                     <span class="details">Server URL</span><br>
@@ -59,8 +65,10 @@
             <div class="source-info "><br>
                 <div class="input-box">
                   <span class="details">Server type</span><br>
-                  <select id="server-type">
-                    <option value="Hosted by Mind Hosting">Hosted by Mind Hosting(AutoDetect)</option>
+                  <select id="destination_server_type"></select>
+                  <script type="text/javascript" src ="jquery-2.1.4.min.js"></script>
+                  <script type="text/javascript" src ="app.js"></script>
+                    <!--<option value="Hosted by Mind Hosting">Hosted by Mind Hosting(AutoDetect)</option>
                     <option value="Gmail">Gmail</option>
                     <option value="Exchange">Exchange</option>
                     <option value="office356">office356</option>
@@ -68,9 +76,9 @@
                     <option value="Imap">Imap</option>
                     <option value="Pop">Pop</option>
                     <option value="Yahoo">Yahoo</option>
-                    <option value="E-mail Pro">E-mail Pro</option>
+                    <option value="E-mail Pro">E-mail Pro</option>-->
                    
-                  </select>
+                  
                 </div>
                 <div class="input-box">
                     <span class="details">Server URL</span><br>
@@ -88,7 +96,8 @@
         </div>
       </div>
     <div class="button">Detect settings</div></div>
-   
+   <!-- <script type="text/javascript" src="jquery-3.6.0.js"></script>-->
+
 </body>
 <div class="footer__container">
       
@@ -136,5 +145,6 @@
     </div>
   </section>
 </div>
+<script src="/app.js"></script>
 
 </html>
