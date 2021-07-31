@@ -19,6 +19,8 @@
 #logo {
   width: 17rem;
   padding: 2rem;
+  -webkit-filter: drop-shadow(5px 5px 5px #00000071);
+  filter: drop-shadow(5px 5px 5px #00000040);
 }
 
 body {
