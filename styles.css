@@ -302,7 +302,7 @@ body {
   }
 
   .box {
-    width: 90vw;
+    width: 80vw;
     height: min-content;
     left: 0;
     right: 0;
@@ -321,4 +321,14 @@ body {
     width: 10rem;
     padding: 0.2rem;
   }
+  .box {
+    width: 90vw;
+    height: min-content;
+    left: 0;
+    right: 0;
+    margin-bottom: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
 }
