@@ -9,7 +9,7 @@
     "name":"Exchange"},
 
     {"id":"4",
-    "name":"office365"},
+    "name":"Office365"},
 
     {"id":"5",
     "name":"pop"},
@@ -18,7 +18,7 @@
     "name":"Imap"},
 
     {"id":"7",
-    "name":"Hosted by Mind Engineering"},
+    "name":"Hosted by Mind Hosting"},
 
     {"id":"8",
     "name":"Pop"}

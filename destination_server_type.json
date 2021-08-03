@@ -1,6 +1,6 @@
 {"destination_server_type":[
     {"id":"1",
-    "name":"Hosted by Mind Engineering"},
+    "name":"Hosted by Mind Hosting"},
    
     {"id":"2",
     "name":"Gmail"},
@@ -9,10 +9,10 @@
     "name":"Exchange"},
 
     {"id":"4",
-    "name":"office365"},
+    "name":"Office365"},
 
     {"id":"5",
-    "name":"pop"},
+    "name":"Pop"},
 
     {"id":"6",
     "name":"Imap"},
@@ -20,6 +20,5 @@
     {"id":"7",
     "name":"Yahoo"},
 
-    {"id":"8",
-    "name":"Pop"}
+
 ]}
