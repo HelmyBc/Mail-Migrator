@@ -1,0 +1,34 @@
+{"source":[
+    
+    {"name":"Gmail"},
+   
+    {"name":"Hosted by Mind Hosting"},
+    
+    {"name":"Exchange"},
+
+    {"name":"Office365"},
+
+    {"name":"Pop"},
+
+    {"name":"Imap"},
+
+    {"name":"Yahoo"}],
+
+
+"destination":[
+
+    {"name":"Hosted by Mind Hosting"},
+       
+    {"name":"Gmail"},
+        
+    {"name":"Exchange"},
+    
+    {"name":"Office365"},
+    
+    {"name":"Pop"},
+    
+    {"name":"Imap"},
+    
+    {"name":"Yahoo"}]
+
+}
