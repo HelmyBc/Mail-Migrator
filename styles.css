@@ -310,6 +310,12 @@ body {
     margin-left: 0;
     margin-right: 0;
   }
+
+  .social__icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }
 @media screen and (max-width: 715px) {
   #title {
@@ -331,4 +337,28 @@ body {
     margin-right: 0;
   }
 }
+@media screen and (max-width: 455px) {
+  #title {
+    color: rgba(255, 255, 255, 0.651);
+    font-size: 1.95rem;
+    right: 1rem;
+  }
+  .header{
+    display: flex;
+    align-items: baseline;
+  }
+  #logo {
+    width: 7rem;
+    padding: 0.2rem;
+  }
+  .box {
+    width: 90vw;
+    height: min-content;
+    left: 0;
+    right: 0;
+    margin-bottom: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
+
