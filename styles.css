@@ -219,7 +219,7 @@ body {
   margin: 40px auto 0 auto;
 }
 
-.social__icons {
+#social__icons {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -262,7 +262,7 @@ body {
   .social__media--wrap {
     flex-direction: column;
   }
-  .social__icons {
+  #social__icons {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -311,7 +311,7 @@ body {
     margin-right: 0;
   }
 
-  .social__icons{
+  #social__icons{
     display: flex;
     flex-direction: row;
     justify-content: space-around;

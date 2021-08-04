@@ -29,6 +29,27 @@
     
     {"name":"Imap"},
     
-    {"name":"Yahoo"}]
+    {"name":"Yahoo"}],
+
+
+"iconLinks":[
+    
+    {"aria-label":"Facebook",
+    "href":"https://www.facebook.com/www.mind.hosting/",
+    "class":"fab fa-facebook"},
+
+    {"aria-label":"Twitter",
+    "href":"https://twitter.com/MindHosting",
+    "class":"fab fa-twitter"},
+
+    {"aria-label":"LinkedIn",
+    "href":"https://www.linkedin.com/company/mind-hosting/",
+    "class":"fab fa-linkedin"},
+
+    {"aria-label":"Blogger",
+    "href":"https://mind.hosting/blog/",
+    "class":"fab fa-blogger"}
+    
+]
 
 }
