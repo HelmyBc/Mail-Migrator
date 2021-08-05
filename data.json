@@ -1,18 +1,25 @@
 {"source":[
     
-    {"name":"Gmail"},
+    {"name":"Gmail",
+    "url":"smtp.gmail.com"},
    
-    {"name":"Hosted by Mind Hosting"},
+    {"name":"Hosted by Mind Hosting",
+    "url":"smtp.gmail.com"},
     
-    {"name":"Exchange"},
+    {"name":"Exchange",
+    "url":"smtp.gmail.com"},
 
-    {"name":"Office365"},
+    {"name":"Office365",
+    "url":"smtp.gmail.com"},
 
-    {"name":"Pop"},
+    {"name":"Pop",
+    "url":"smtp.gmail.com"},
 
-    {"name":"Imap"},
+    {"name":"Imap",
+    "url":"smtp.gmail.com"},
 
-    {"name":"Yahoo"}],
+    {"name":"Yahoo",
+    "url":"smtp.gmail.com"}],
 
 
 "destination":[
@@ -33,6 +40,7 @@
 
 
 "iconLinks":[
+//DOWNLOAD ICONS FROM THIS LINK: https://fontawesome.com/
     
     {"aria-label":"Facebook",
     "href":"https://www.facebook.com/www.mind.hosting/",

@@ -311,7 +311,7 @@ body {
     margin-right: 0;
   }
 
-  #social__icons{
+  #social__icons {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -343,7 +343,7 @@ body {
     font-size: 1.95rem;
     right: 1rem;
   }
-  .header{
+  .header {
     display: flex;
     align-items: baseline;
   }
@@ -361,4 +361,3 @@ body {
     margin-right: 0;
   }
 }
-
