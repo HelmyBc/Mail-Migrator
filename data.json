@@ -4,16 +4,16 @@
     "url":"smtp.gmail.com"},
    
     {"name":"Hosted by Mind Hosting",
-    "url":"smtp.gmail.com"},
+    "url":"mind.com"},
     
     {"name":"Exchange",
-    "url":"smtp.gmail.com"},
+    "url":"exchange.com"},
 
     {"name":"Office365",
-    "url":"smtp.gmail.com"},
+    "url":"365.com"},
 
     {"name":"Pop",
-    "url":"smtp.gmail.com"},
+    "url":"pop.com"},
 
     {"name":"Imap",
     "url":"smtp.gmail.com"},
@@ -23,21 +23,33 @@
 
 
 "destination":[
+    
+    {"name":"Hosted by Mind Hosting",
+    "url":"mind.com"},
 
-    {"name":"Hosted by Mind Hosting"},
-       
-    {"name":"Gmail"},
-        
-    {"name":"Exchange"},
-    
-    {"name":"Office365"},
-    
-    {"name":"Pop"},
-    
-    {"name":"Imap"},
-    
-    {"name":"Yahoo"}],
+    {"name":"Gmail",
+    "url":"smtp.gmail.com"},
 
+    {"name":"Exchange",
+    "url":"exchange.com"},
+    
+    {"name":"Office365",
+    "url":"365.com"},
+    
+    {"name":"Pop",
+    "url":"pop.com"},
+    
+    {"name":"Imap",
+    "url":"smtp.gmail.com"},
+    
+    {"name":"Yahoo",
+    "url":"smtp.gmail.com"}],
+    
+
+
+
+
+  
 
 "iconLinks":[
 
