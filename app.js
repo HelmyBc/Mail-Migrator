@@ -14,12 +14,6 @@ for ( var i = 0 ; i < source_server_type['source'].length ; i++){
 
 
 
-
-//document.getElementById('source_server_type').value
-
-
-
-
 var $select=$('#destination_server_type');
 var $selecti=$('#autofill2');
 $.getJSON('data.JSON',function(destination_server_type){
@@ -35,13 +29,6 @@ $select.html('');
 
 });
 
-
-/*var $selectsri=$('#autofill1');
-$.getJSON('data.JSON',function(source_server_type){
-    switch(document.getElementById('source_server_type').value) {
-        case "0":
-            document.getElementById('autofill1').value="aaaa";
-          break;*/
 var $selectIcon=$('#social__icons');
 
       
