@@ -38,3 +38,11 @@ $.getJSON('data.JSON',function(social__icons){
         $selectIcon.append('<a  class="social__icon--link" target="_blank" arial-label=" '+social__icons['iconLinks'][i]['aria-label'] +'" href= "'+social__icons['iconLinks'][i]['href']+'">'+'<i class= "'+social__icons['iconLinks'][i]['class']+'"></i></a>');
    }
 });
+0
+var server1= document.getElementById("autofill1").value;
+var server2= document.getElementById("autofill2").value;
+var user1= document.getElementById("user1").value;
+var user2= document.getElementById("user2").value;
+var pass1= document.getElementById("pass1").value;
+var pass2= document.getElementById("pass2").value;
+

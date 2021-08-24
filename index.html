@@ -34,15 +34,15 @@
                 </div>
                 <div class="input-box">
                     <span class="input">Server URL</span><br>
-                    <input id="autofill1" type="text" placeholder="mysourceserver.com" readonly>
+                    <input id="autofill1" type="text" placeholder="AutoDetect" readonly>
                   </div>
                   <div class="input-box">
                     <span class="details">Login</span><br>
-                    <input type="email" placeholder="source@email.com" >
+                    <input id="user1" type="email" placeholder="source@email.com" >
                   </div>
                   <div class="input-box">
                     <span class="details">Password</span><br>
-                    <input type="password" placeholder="password" >
+                    <input id="pass1"  type="password" placeholder="password" >
                   </div>
             </div>
         </div>
@@ -72,16 +72,17 @@
                   </div>
                   <div class="input-box">
                     <span class="details">Login</span><br>
-                    <input type="email" placeholder="destination@email.com" >
+                    <input id="user2" type="email" placeholder="destination@email.com" >
                   </div>
                   <div class="input-box">
                     <span class="details">Password</span><br>
-                    <input type="password" placeholder="password" >
+                    <input id="pass2"  type="password" placeholder="password" >
                   </div>
             </div>
         </div>
       </div>
-      <button class="button"> Detect settings</button></form>
+      <button class="button" onclick="submit()"> Detect settings</button>
+    </form>
   
 
 </body>
